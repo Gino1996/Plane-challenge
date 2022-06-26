@@ -14,7 +14,7 @@ public class spinn : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        speed = 800f;
+        speed = 1000f;
         transform.Rotate(Vector3.back,speed*Time.deltaTime);
 
     }
